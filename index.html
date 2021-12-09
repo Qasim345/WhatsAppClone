@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maxumam-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=7,8,edge" />
+  <meta name="description" content="WhatsApp clone, Desinged by Qasim Sarwari using HTML CSS & JavaScript" />
+  <meta name="theme-color" content="#008069" />
+  <link rel="stylesheet" href="file/style.css" />
+  <title>WhatsApp | by Qasim</title>
+</head>
+<body>
+  <!-- loader -->
+  <div class="loader">
+    <!-- logo -->
+    <img src="file/whatsapp.svg" />
+    <div class="mark">
+      <small>from</small>
+      <h4>FACEBOOK</h4>
+    </div>
+  </div>
+  <!-- main container -->
+  <div class="container">
+    <header>
+      <!-- top bar-->
+      <div class="top-bar">
+        <h3>WhatsApp</h3>
+        <div class="ico">
+          <span class="material icons" id="search">search</span>
+          <div class="btn" id="btn"></div>
+        </div>
+      </div>
+      <!-- // top bar -->
+      <!-- tabs -->
+      <nav>
+        <span id="camera">photo_camera</span>
+        <div>
+          <span class="ch tab active">Chats</span>
+          <span class="st tab">Status</span>
+          <span class="cl tab" onclick="alert('Comming soon!')">Calls</span>
+        </div>
+      </nav>
+      <!-- // taba -->
+      <!-- right option menu -->
+      <ul class="menu" id="menu">
+        <li><a href="#">New group</a></li>
+        <li><a href="#">New broadcast</a></li>
+        <li><a href="#">Linked devices</a></li>
+        <li><a href="#">Stared messages</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+      <!-- // right option menu -->
+    </header>
+    <!-- main page -->
+    <div class="pages">
+      <!-- buttons -->
+      <div class="chat-btn">
+        message
+      </div>
+      <a class="btAdd" href="https://wa.me/+93798678624">
+        <span>edit</span>
+      </a>
+      <!-- chats -->
+      <div class="page">
+        <!-- contacts list -->
+        <div class="user">
+          <div class="img">
+            <img src="img/1.jpg" alt="" />
+          </div>
+          <div class="name">
+            <div>
+              <h3>Faizullah</h3>
+              <p class="txt">
+                Oky, thanks bro
+              </p>
+            </div>
+            <p class="date">
+              10/8/21
+            </p>
+          </div>
+        </div>
+        <div class="user">
+          <div class="img">
+            <img src="img/3.jpg" alt="" />
+          </div>
+          <div class="name">
+            <div>
+              <h3>Hussain</h3>
+              <p class="txt t">
+                typing...
+              </p>
+            </div>
+            <p class="date">
+              9/15/21
+            </p>
+          </div>
+        </div>
+        <div class="user">
+          <div class="img">
+            <img src="img/g.jpg" alt="" />
+          </div>
+          <div class="name">
+            <div>
+              <h3>Coding group 💻</h3>
+              <p class="txt">
+                can you help me?
+              </p>
+            </div>
+            <p class="date">
+              8/5/21
+            </p>
+          </div>
+        </div>
+        <div class="user">
+          <div class="img">
+            <img src="img/2.jpg" alt="" />
+          </div>
+          <div class="name">
+            <div>
+              <h3>0798678624</h3>
+              <p class="txt">
+                oky, bye
+              </p>
+            </div>
+            <p class="date">
+              10/9/21
+            </p>
+          </div>
+        </div>
+        <div class="user">
+          <div class="img">
+            <img src="img/4.jpg" alt="" />
+          </div>
+          <div class="name">
+            <div>
+              <h3>Mohammad Ali</h3>
+              <p class="txt">
+                سلام، خوبی
+              </p>
+            </div>
+            <p class="date">
+              7/3/21
+            </p>
+          </div>
+        </div>
+        <div class="user">
+          <div class="img">
+            <img src="img/2.jpg" alt="" />
+          </div>
+          <div class="name">
+            <div>
+              <h3>0730238892</h3>
+              <p class="txt">
+                good morning
+              </p>
+            </div>
+            <p class="date">
+              9/12/21
+            </p>
+          </div>
+        </div>
+        <div class="user">
+          <div class="img">
+            <img src="img/1.jpg" alt="" />
+          </div>
+          <div class="name">
+            <div>
+              <h3>Qasim</h3>
+              <p class="txt">
+                Hello
+              </p>
+            </div>
+            <p class="date">
+              10/8/21
+            </p>
+          </div>
+        </div>
+        <div class="user">
+          <div class="img">
+            <img src="img/2.jpg" alt="" />
+          </div>
+          <div class="name">
+            <div>
+              <h3>Qasim</h3>
+              <p class="txt">
+                Hello
+              </p>
+            </div>
+            <p class="date">
+              10/8/21
+            </p>
+          </div>
+        </div>
+        <div class="user">
+          <div class="img">
+            <img src="img/3.jpg" alt="" />
+          </div>
+          <div class="name">
+            <div>
+              <h3>Nasim Jan</h3>
+              <p class="txt">
+                فعلا خدانگهدار
+              </p>
+            </div>
+            <p class="date">
+              23/6/21
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- // contacts list -->
+      <!-- status page -->
+      <div class="status">
+        <!-- your profile -->
+        <div class="me">
+          <div class="img">
+            <img src="img/Profile.jpg" alt="" />
+          </div>
+          <div>
+            <h3>My status</h3>
+            <p>
+              Tap to add status update
+            </p>
+          </div>
+        </div>
+        <p class="ru">
+          Recent updates
+        </p>
+        <!-- contacts status -->
+        <div class="str">
+          <div class="img">
+            <img src="img/2.jpg" alt="" />
+          </div>
+          <div>
+            <h3>Faizullah</h3>
+            <p>
+              Today, 11:25 AM
+            </p>
+          </div>
+        </div>
+        <div class="str">
+          <div class="img">
+            <img src="img/3.jpg" alt="" />
+          </div>
+          <div>
+            <h3>Hussain</h3>
+            <p>
+              Yesterday, 2:25 PM
+            </p>
+          </div>
+        </div>
+        <div class="str">
+          <div class="img">
+            <img src="img/4.jpg" alt="" />
+          </div>
+          <div>
+            <h3>Mahdi</h3>
+            <p>
+              Today, 4:15 PM
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- search -->
+    <div class="search">
+      <div class="input">
+        <span id="close-search">arrow_back</span>
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="tags">
+        <div class="tag">
+          <span>photo</span> Photos
+        </div>
+        <div class="tag">
+          <span>video_call</span> Videos
+        </div>
+        <div class="tag">
+          <span>link</span> Links
+        </div>
+        <div class="tag">
+          <span>gif</span> GIFs
+        </div>
+        <div class="tag">
+          <span>headphones</span> Audio
+        </div>
+        <div class="tag">
+          <span>file_present</span> Documents
+        </div>
+      </div>
+    </div>
+    <!-- // search -->
+  </div>
+  <script src="file/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    // loader
+    setTimeout(()=> {
+      $(".loader").fadeOut(200);
+    }, 4000)
+
+    // menu button
+    $(".btn").click(()=> {
+      $("#menu").toggle(80)
+    });
+    document.onclick = ((e)=> {
+      if (e.target.id !== 'btn' && e.target.id !== 'menu') {
+        $("#menu").css("display", "none")
+      }
+    });
+    //tabs
+    var tab = document.querySelectorAll(".tab");
+    function activeTab() {
+      tab.forEach((item)=>
+        item.classList.remove('active'));
+      this.classList.add('active');
+    }
+    tab.forEach((item)=>
+      item.addEventListener('click', activeTab));
+
+    $(window).on("scroll", ()=> {
+      if (window.pageYOffset > 65) {
+        $("nav").addClass("act");
+        $(".pages").css("margin-top", "60px");
+      } else {
+        $("nav").removeClass("act");
+        $(".pages").css("margin-top", "0");
+      }
+    });
+    $(".st").click(()=> {
+      $(".page,.status,.btAdd").addClass("act");
+      $(".chat-btn").html("photo_camera");
+    });
+    $(".ch").click(()=> {
+      $(".page,.status,.btAdd").removeClass("act");
+      $(".chat-btn").html("message")
+    });
+    $("#search").click(()=> {
+      $(".search").addClass("act");
+      $(".pages").css("margin-top", "65px")
+    });
+    $("#close-search").click(()=> {
+      $(".search").removeClass("act");
+      $(".pages").css("margin-top", "0")
+    });
+  </script>
+</body>
+</html>
